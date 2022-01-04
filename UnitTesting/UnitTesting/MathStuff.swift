@@ -36,4 +36,5 @@ class MathStuff{
     func divideNumbers(number1: Double, number2: Double) ->Double {
         number1 / number2
     }
+    
 }
