@@ -12,9 +12,7 @@ class UnitTestingTests: XCTestCase {
     
     var mathStuff = MathStuff()
     
-    override func setUpWithError() throws {
-        mathStuff = MathStuff()
-    }
+    override func setUpWithError() throws {}
 
     override func tearDownWithError() throws {}
     
