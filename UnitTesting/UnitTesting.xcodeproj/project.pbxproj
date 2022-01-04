@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D54732A2784F2590072440E /* MathStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5473292784F2590072440E /* MathStuff.swift */; };
 		2D9F9FD72758C31C000E5247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F9FD62758C31C000E5247 /* AppDelegate.swift */; };
 		2D9F9FD92758C31C000E5247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F9FD82758C31C000E5247 /* SceneDelegate.swift */; };
 		2D9F9FDB2758C31C000E5247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F9FDA2758C31C000E5247 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D5473292784F2590072440E /* MathStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStuff.swift; sourceTree = "<group>"; };
 		2D9F9FD32758C31C000E5247 /* UnitTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9F9FD62758C31C000E5247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9F9FD82758C31C000E5247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				2D9F9FE42758C324000E5247 /* LaunchScreen.storyboard */,
 				2D9F9FE72758C324000E5247 /* Info.plist */,
 				2D9F9FDF2758C31C000E5247 /* UnitTesting.xcdatamodeld */,
+				2D5473292784F2590072440E /* MathStuff.swift */,
 			);
 			path = UnitTesting;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9F9FDB2758C31C000E5247 /* ViewController.swift in Sources */,
+				2D54732A2784F2590072440E /* MathStuff.swift in Sources */,
 				2D9F9FD72758C31C000E5247 /* AppDelegate.swift in Sources */,
 				2D9F9FE12758C31C000E5247 /* UnitTesting.xcdatamodeld in Sources */,
 				2D9F9FD92758C31C000E5247 /* SceneDelegate.swift in Sources */,
