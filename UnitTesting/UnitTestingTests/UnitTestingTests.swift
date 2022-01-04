@@ -9,25 +9,33 @@ import XCTest
 @testable import UnitTesting
 
 class UnitTestingTests: XCTestCase {
-
+    
+    var mathStuff = MathStuff()
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        mathStuff = MathStuff()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDownWithError() throws {}
+    
+    func testAddition(){
+        XCTAssertEqual(10, mathStuff.addNumbers(numbers: 1,2,3,4), "error in addition")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testSubtraction(){
+        XCTAssertEqual(5, mathStuff.subtractNumbers(number1: 17, number2: 12),"error in subtraction")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testMultiply(){
+        XCTAssertEqual(100, mathStuff.multiplyNumbers(number1: 25, number2: 4),"error in multiply")
+    }
+    
+    func testdivide(){
+        XCTAssertEqual(25, mathStuff.divideNumbers(number1: 100, number2: 4),"error in multiply")
+    }
+    
+    func testArithmaticMean(){
+        XCTAssertEqual(2.5, mathStuff.getArithmaticMean(values: 1,2,3,4),"error in arithmatic mean")
     }
 
 }
